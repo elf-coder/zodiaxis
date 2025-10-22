@@ -14,6 +14,12 @@ export default function App({ Component, pageProps }) {
           content="Gerçek gökyüzü astrolojisi – 13’lü Zodiaxis sistemiyle kişisel aks analizini keşfet! Kök, gölge, yükselen ve ruh akslarını analiz eden modern astroloji platformu."
         />
 
+        {/* ✨ Anahtar Kelimeler (SEO) */}
+        <meta
+          name="keywords"
+          content="astroloji, doğum haritası, zodyak, aks analizi, kök aks, gölge aks, yükselen burç, 13 burç sistemi, Zodiaxis, gerçek gökyüzü astrolojisi"
+        />
+
         {/* 🌈 Görünüm ve Tema Ayarları */}
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="theme-color" content="#120b2f" />
