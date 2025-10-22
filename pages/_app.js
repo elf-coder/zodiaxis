@@ -8,7 +8,7 @@ export default function App({ Component, pageProps }) {
         <title>Zodiaxis – Gerçek Gökyüzü Astrolojisi</title>
         <meta name="description" content="Zodiaxis: 13’lü Gerçek Gökyüzü Astrolojisi ve Aks Sistemi" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" type="image/png" href="/favicon.png" />
+        <link rel="icon" type="image/png" href="/favicon-2025.png" />
         <meta name="theme-color" content="#120b2f" />
       </Head>
       <Component {...pageProps} />
