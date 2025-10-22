@@ -1,6 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
-import Head from 'next/head'; // 🪄 Başlık ve favicon için ekledik
+import Head from 'next/head';
 
 export default function Layout({ children }) {
   return (
@@ -11,19 +11,16 @@ export default function Layout({ children }) {
           'radial-gradient(circle at 20% 20%, #1a1f35, #0B0C1A 80%)',
       }}
     >
-      {/* 🌟 Başlık ve favicon */}
+      {/* 🌙 Başlık + Favicon */}
       <Head>
         <title>Zodiaxis – Gerçek Gökyüzü Astrolojisi</title>
-        <meta
-          name="description"
-          content="Gerçek gökyüzü astrolojisi – Zodiaxis 13’lü sistemle kişisel aks analizini keşfet."
-        />
-        <meta name="theme-color" content="#1a0b2e" />
+        <meta name="description" content="Zodiaxis: 13’lü Gerçek Gökyüzü Astrolojisi ve Aks Sistemi" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon.png" />
+        <meta name="theme-color" content="#120b2f" />
       </Head>
 
-      {/* 🪐 Üst Menü */}
       <header className="sticky top-0 z-30 backdrop-blur bg-black/20 border-b border-aurora-border">
         <div className="max-w-5xl mx-auto px-4 py-3 flex items-center justify-between">
           <Link href="/" className="flex items-center gap-2">
@@ -49,10 +46,8 @@ export default function Layout({ children }) {
         </div>
       </header>
 
-      {/* 🌌 Sayfa İçeriği */}
       <main className="flex-1 max-w-5xl mx-auto px-4 py-8">{children}</main>
 
-      {/* 🌙 Alt Bilgi */}
       <footer className="border-t border-aurora-border/70 py-6 text-center text-aurora-text/70">
         © {new Date().getFullYear()} Zodiaxis — Aurora Sky
       </footer>
