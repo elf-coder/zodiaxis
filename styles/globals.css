@@ -71,4 +71,19 @@ h1, h2, h3 {
   background: linear-gradient(90deg, #A855F7, #00FFC6);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+
+  html, body {
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+p, h1, h2, h3 {
+  word-break: break-word;
+}
+
+img, svg {
+  max-width: 100%;
+  height: auto;
+}
+
 }

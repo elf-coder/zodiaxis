@@ -47,7 +47,7 @@ export default function AksAnalizi() {
 
         {axes && (
           <>
-            <div className="grid md:grid-cols-2 gap-6">
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
               {/* ☀️ Kök Aks */}
               <div className="card p-5 font-sans">
                 <h2 className="text-xl font-semibold mb-2">☀️ Kök Aks</h2>

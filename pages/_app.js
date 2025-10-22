@@ -21,7 +21,11 @@ export default function App({ Component, pageProps }) {
         />
 
         {/* 🌈 Görünüm ve Tema Ayarları */}
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta
+  name="viewport"
+  content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"
+/>
+
         <meta name="theme-color" content="#120b2f" />
 
         {/* 💫 Open Graph (Facebook / Instagram / WhatsApp) */}

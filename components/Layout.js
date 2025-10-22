@@ -46,7 +46,8 @@ export default function Layout({ children }) {
         </div>
       </header>
 
-      <main className="flex-1 max-w-5xl mx-auto px-4 py-8">{children}</main>
+      <main className="flex-1 max-w-5xl mx-auto px-4 py-8 overflow-x-hidden">{children}</main>
+
 
       <footer className="border-t border-aurora-border/70 py-6 text-center text-aurora-text/70">
         © {new Date().getFullYear()} Zodiaxis — Aurora Sky
