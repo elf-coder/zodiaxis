@@ -1,0 +1,8 @@
+# gizli dosyalar
+.env*
+# build dosyaları
+.next/
+# node modülleri
+node_modules/
+# sistem dosyaları
+.DS_Store
